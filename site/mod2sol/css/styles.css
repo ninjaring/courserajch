@@ -55,6 +55,7 @@ section {
 	border: 1px solid black;
 	margin: 10px 10px 20px 10px;
 	overflow: auto;
+	overflow-x: hidden;
 }
 
 .section1 {
