@@ -5,7 +5,12 @@
 	padding: 0;
 }
 
+html {
+	background-color: #fffff0;
+}
+
 body {
+	color: #1a1a1a;
 	font-size: 100%;
 	font-family: Roboto Slab, sans-serif;
 	line-height: 1.25em;
@@ -20,9 +25,10 @@ h1 {
 }
 
 h2 {
+	width: 150px;
 	font-size: 1.25em;
 	font-weight: bold;
-	text-align: right;
+	text-align: center;
 	float: right;
 	padding: 10px 21px 10px 20px;
 	border: 1px solid black;
@@ -34,7 +40,6 @@ h2 {
 p {
 	clear: both;
 	width: 90%;
-	color: black;
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
@@ -65,7 +70,7 @@ section {
 }
 
 .section1 h2 {
-	color: #000000;
+	color: #1a1a1a;
 	background-color: #ff9900;
 }
 
@@ -102,7 +107,7 @@ section {
 	}
 }
 
-/* small devices only -- back to base styles, actually */
+/* small devices only */
 @media (max-width: 767px) {
 	.col-sm-6 {
 		float: left;
