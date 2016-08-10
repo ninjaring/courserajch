@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-	width: 150px;
+	width: auto;
 	font-size: 1.25em;
 	font-weight: bold;
 	text-align: center;
 	float: right;
-	padding: 10px 21px 10px 20px;
+	padding: 10px 31px 10px 30px;
 	border: 1px solid black;
 	position: relative;
 	top: -1px;
@@ -47,40 +47,42 @@ p {
 
 .row {
 	width: 100%;
-	padding: 0 15px 0 15px;
+	padding: 10px 15px 0 15px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 section {
-	height: 350px;
+	height: 100%;
 	border: 1px solid black;
-	margin: 10px 15px 20px 15px;
+	margin: 0px 15px 10px 15px;
 	overflow: auto;
 	overflow-x: hidden;
 }
 
-.section1 {
+#menu1 {
 	background-color: #ffffcc;
 }
 
-.section2 {
+#menu2 {
 	background-color: #ff9999;
 }
 
-.section3 {
+#menu3 {
 	background-color: #b3ffcc;
 }
 
-.section1 h2 {
+#menu1 h2 {
 	color: #1a1a1a;
 	background-color: #ff9900;
 }
 
-.section2 h2 {
+#menu2 h2 {
 	color: #ffffff;
 	background-color: #990000;
 }
 
-.section3 h2 {
+#menu3 h2 {
 	color: #ffffff;
 	background-color: #00802b;
 }
@@ -92,6 +94,7 @@ section {
 		width: 33.33%;
 		margin-right: auto;
 		margin-left: auto;
+		margin-bottom: 20px;
 	}
 }
 
@@ -99,6 +102,7 @@ section {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-3, .col-md-6 {
 		float: left;
+		margin-bottom: 20px;
 	}
 	.col-md-3 {
 		width: 50%;
@@ -106,19 +110,13 @@ section {
 	.col-md-6 {
 		width: 100%;
 	}
-	.col-md-6 section {
-		height: auto;
-	}
 }
 
 /* small devices only */
 @media (max-width: 767px) {
 	.col-sm-6 {
 		float: left;
+		margin-bottom: 20px;
 		width: 100%;
 	}
-	section {
-		height: auto;
-	}
 }
-
