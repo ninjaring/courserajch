@@ -11,12 +11,6 @@ body {
   border-radius: 0;
 }
 
-.navbar-brand h1 {
-  font-size: inherit;
-  margin: inherit;
-  line-height: inherit;
-}
-
 .navbar-header a.navbar-brand {
   color: #ffeebb;
 }
@@ -123,15 +117,6 @@ body {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar-brand {
-    height: auto;
-  }
-
-  .navbar-brand h1 {
-    font-size: 2em;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
 
   #special-menu {
     padding-left: 70px;
