@@ -46,6 +46,11 @@ body {
   border-color: #ffeebb;
 }
 
+#nav-list .divider {
+  height: 1px;
+  background-color: #ffeebb;
+}
+
 #nav-list a {
   color: #ffeebb;
 }
@@ -79,7 +84,7 @@ body {
   font-family: 'Roboto Slab', sans-serif;
 }
 
-hr.visible-xs {
+#main-content + hr.visible-xs {
   width: 50%;
   border-color: #ffeebb;
 }
