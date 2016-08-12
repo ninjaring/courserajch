@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #200e01;
+  background-color: #ee5517;
+}
+
+#header-nav {
+  background-color: #771013;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-header a.navbar-brand {
+  color: #ffeebb;
+}
+
+.navbar-header a.navbar-brand:hover, .navbar-header a.navbar-brand:focus {
+  color: #fff;
+}
+
+#header-nav button.navbar-toggle {
+  border-color: transparent;
+}
+
+#header-nav button.navbar-toggle:hover, #header-nav button.navbar-toggle:focus  {
+  border-color: #fff;
+  background-color: transparent;
+}
+
+#header-nav button.navbar-toggle:hover > .icon-bar, #header-nav button.navbar-toggle:focus > .icon-bar {
+  background-color: #fff;
+}
+
+#header-nav .icon-bar {
+  background-color: #ffeebb;
+}
+
+#toggle-nav {
+  border-color: #ffeebb;
+}
+
+#nav-list a {
+  color: #ffeebb;
+}
+
+#nav-list a:hover {
+  color: #fff;
+}
+
+.row {
+  padding: 0 30px 20px;
+}
+
+.col-xs-12 {
+  height: 100%;
+  background-color: #ffbb66;
+}
+
+#homepage-title {
+  border-bottom: none;
+}
+
+.special-menu {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.special-title {
+  margin-bottom: 30px;
+}
+
+.special-description {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .special-menu {
+    padding-left: 70px;
+    padding-right: 70px;
+}
