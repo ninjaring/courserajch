@@ -59,7 +59,7 @@ body {
   margin: 0px auto 30px;
 }
 
-#homepage-title {
+#our-menu {
   border-bottom: none;
 }
 
@@ -94,7 +94,7 @@ hr.visible-xs {
   flex-wrap: wrap;
 }
 
-#opt-menu-1, #opt-menu-2, #opt-menu-3 {
+#chicken, #beef, #sushi {
   height: 100%;
   background-color: #ffbb66;
   border-radius: 5px;
@@ -133,7 +133,7 @@ hr.visible-xs {
     padding-right: 70px;
   }
 
-  #opt-menu-1, #opt-menu-2, #opt-menu-3 {
+  #chicken, #beef, #sushi {
     padding: 10px 30px 20px;
   }
 }
