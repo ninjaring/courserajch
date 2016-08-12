@@ -117,6 +117,14 @@ body {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar-brand {
+    height: auto;
+    line-height: 1.2;
+  }
+
+  .navbar-brand span {
+    font-size: 2em;
+  }
 
   #special-menu {
     padding-left: 70px;
