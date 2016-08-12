@@ -11,6 +11,12 @@ body {
   border-radius: 0;
 }
 
+.navbar-brand h1 {
+  font-size: inherit;
+  margin: inherit;
+  line-height: inherit;
+}
+
 .navbar-header a.navbar-brand {
   color: #ffeebb;
 }
@@ -49,32 +55,85 @@ body {
 }
 
 .row {
-  padding: 0 30px 20px;
+  padding-bottom: 20px;
+  margin: 0px auto 30px;
 }
 
 #homepage-title {
   border-bottom: none;
 }
 
-.special-menu {
+#special-menu {
   height: 100%;
   background-color: #ffbb66;
   border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 10px 15px 20px;
 }
 
-.special-title {
+/******* OPTIONAL PORTION *******/
+#special-menu .title, #optional-content .title {
   margin-bottom: 30px;
 }
 
-.special-description {
+#special-menu .description p, #optional-content .description p {
   font-family: 'Roboto Slab', sans-serif;
+}
+
+hr.visible-xs {
+  width: 50%;
+  border-color: #ffeebb;
+}
+
+.optional-menu {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#optional-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#opt-menu-1, #opt-menu-2, #opt-menu-3 {
+  height: 100%;
+  background-color: #ffbb66;
+  border-radius: 5px;
+  padding: 10px 15px 20px;
+}
+
+.optional-menu div div:last-child {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.optional-menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+.optional-menu a:hover, .optional-menu a:active {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .special-menu {
+  .navbar-brand {
+    height: auto;
+  }
+
+  .navbar-brand h1 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #special-menu {
     padding-left: 70px;
     padding-right: 70px;
+  }
+
+  #opt-menu-1, #opt-menu-2, #opt-menu-3 {
+    padding: 10px 30px 20px;
+  }
 }
