@@ -1,4 +1,4 @@
-// // Default values
+// // starter, example by coursera
 // function orderChickenWith(what) {
 //   if (what == undefined) {
 //     console.log("just chicken");
@@ -7,12 +7,20 @@
 //     console.log("chicken with " + what);
 //   }
 // }
-//
-// orderChickenWith("noodles");
-// orderChickenWith();
+// // code above can be simplified into code below
+function orderChickenWith(what) {
+  what = what || "whatever!";
+  console.log("Chicken with " + what);
+}
 
+orderChickenWith("noodles");
+orderChickenWith();
 
-//// exercises
+console.log("======= #1 170816");
+
+// // #1 - 170816 Conditional Semantic Sentence
+// // inserting two or more variables in one semantic conditional sentence
+// // the sentence syntax changes depending on how much variables defined
 
 // logic area
 var main, side;
@@ -21,10 +29,10 @@ function orderwhat() {
   if (main == undefined && side == undefined) {
     console.log("no order");
   }
-  if (main == undefined) {
+  if (main == undefined && side !==undefined) {
     console.log("side dish only: " + side);
   }
-  if (side == undefined) {
+  if (main !== undefined && side == undefined) {
     console.log("just " + main);
   }
   if (main !== undefined && side !== undefined) {
@@ -40,8 +48,10 @@ function orderside(sidedish) {
 }
 
 // input area
-ordermain("tuna");
+ordermain();
 orderside();
 
 // output area
 orderwhat();
+
+console.log("======= #2 ?");
