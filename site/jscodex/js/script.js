@@ -1,7 +1,7 @@
 // // starter, example by coursera
 // function orderChickenWith(what) {
 //   if (what == undefined) {
-//     console.log("just chicken");
+//     console.log("Chicken with whatever!");
 //   }
 //   else {
 //     console.log("chicken with " + what);
@@ -16,9 +16,8 @@ function orderChickenWith(what) {
 orderChickenWith("noodles");
 orderChickenWith();
 
-console.log("======= #1 170816");
-
 // // #1 - 170816 Conditional Semantic Sentence
+console.log("======= #1 170816");
 // // inserting two or more variables in one semantic conditional sentence
 // // the sentence syntax changes depending on how much variables defined
 
