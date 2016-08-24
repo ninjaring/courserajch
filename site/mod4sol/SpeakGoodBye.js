@@ -5,9 +5,9 @@
 // See Lecture 52, part 2
 
 (function (window) {
-  var byeSpeaker = {};
+  var speakWord = "Good Bye";
+  byeSpeaker = {};
   byeSpeaker.speak = function (name) {
-    speakWord = "Good Bye";
     console.log(speakWord + " " + name);
   };
   window.byeSpeaker = byeSpeaker;
